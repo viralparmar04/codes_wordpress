@@ -1,0 +1,63 @@
+/*
+Theme Name: My Custom Theme
+Theme URI: http://example.com/my-theme
+Author: viral
+Author URI: http://facbook.com
+Description: A brief description of your theme.
+Version: 1.0
+
+Tags: custom-background, custom-logo, custom-menu, etc.
+*/
+.html{
+      margin-top:0px 
+       !important;
+     } 
+.navbar-logo {
+    padding: 15px;
+    font-size: 10px;
+    line-height: 30px;
+    background: url('<?php echo get_bloginfo("template_url"); ?>/assets/img/your-background-image.png') no-repeat left center; /* Adjust the background path */
+    background-size: contain;
+    width: 10; 
+    height: 20px;
+    margin-left: 15px;
+    display: inline-block;
+  }
+
+ 
+  .logo img {
+    max-height: 10px;
+    width: 10px; 
+  }
+
+
+  .myclass{
+    margin:12px;
+    padding:10p;
+}
+
+/* post css */
+
+.post-thumbnail {
+    margin-bottom: 20px;
+}
+
+.post-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+/* Sidebar */
+#primary {
+  float: right;
+  width: 300px; 
+  margin-left: 20px; 
+}
+
